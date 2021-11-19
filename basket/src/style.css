@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Titan One");
+body {
+  background-color: bisque;
+}
+.header {
+  text-align: center;
+}
+.header-image {
+  height: 250px;
+  weight: 250px;
+}
+.main-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.lists-content {
+  text-shadow: 2px 0 #ec7a7ae1, -4px 0 #ec7a7ae1, 0 3px #ec7a7ae1,
+    0 -3px #ec7a7ae1, 2px 2px #ec7a7ae1, -2px -2px #ec7a7ae1, -2px 2px #ec7a7ae1,
+    2px -2px #ec7a7ae1;
+  color: rgb(197, 192, 181);
+  text-align: center;
+  font-family: "Titan One", Arial;
+  font-size: 25px;
+}
+.basket-content {
+  text-shadow: 2px 0 #ec7a7ae1, -4px 0 #ec7a7ae1, 0 3px #ec7a7ae1,
+    0 -3px #ec7a7ae1, 2px 2px #ec7a7ae1, -2px -2px #ec7a7ae1, -2px 2px #ec7a7ae1,
+    2px -2px #ec7a7ae1;
+  color: rgb(206, 202, 193);
+  text-align: center;
+  font-family: "Titan One", Arial;
+  font-size: 25px;
+}
+.basket-content:hover {
+  text-align: center;
+  background-color: lightgrey;
+  color: rgb(197, 192, 181);
+  cursor: pointer;
+  margin: 2px;
+  border-radius: 5px;
+}
+.ingrident {
+  text-align: center;
+  cursor: pointer;
+  margin: 1px;
+  border-radius: 5px;
+}
+.basket {
+  text-align: center;
+  margin: 1px;
+  border-radius: 5px;
+}
+.ingrident:hover {
+  text-align: center;
+  transform: translate3d(0, -20%, 25px) perspective(0px);
+  /* background-color: coral; */
+  background-color: lightgrey;
+  color: rgb(197, 192, 181);
+  cursor: pointer;
+  margin: 2px;
+  border-radius: 5px;
+}
+#title {
+  color: rgb(170, 165, 156);
+  text-align: center;
+  font-family: "Titan One", Arial;
+  font-size: 4rem;
+}
+.lists-headlines {
+  color: #ec7a7ae1;
+  font-family: "Titan One", Arial;
+  font-size: 3rem;
+  padding-left: 2%;
+}
+#trash {
+  cursor: pointer;
+  font-size: 30px;
+  font-family: "Titan One", Arial;
+  color: rgb(224, 18, 18);
+  /* color: rgb(58, 44, 15); */
+  background-color: rgb(207, 206, 206);
+}
